@@ -1,79 +1,100 @@
-body{
-background-color: #FFFFFF;
-font-family: 'Roboto', sans-serif; 
-color: #434455;
-font-weight:Regular;
-Size:16px;
-Line-Height: 24px;
-letter-spacing:2%
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-weight: Regular;
+    Size: 16px;
+    Line-Height: 24px;
+    letter-spacing: 2%
 }
 
-.web{
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
-.studio{
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+.web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio {
     color: #2e2f42;
 }
 
-.headerlist{
+.headerlist {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
     line-height: 1.5;
 }
+
 .headerlist:hover,
 .headerlist:active,
-.headerlist:focus{
+.headerlist:focus {
     color: #404bbf;
 }
 
-address{
+address {
     font-style: normal;
 }
 
-.contact{
+.contact {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .contact:hover,
-.contact:focus{
+.contact:focus {
     color: #404bbf;
 }
 
-.section-strategy{
+.section-strategy {
     background-color: #2e2f42;
 
 }
 
-.section-our-team{
+.section-our-team {
     background-color: #F4F4FD;
 }
 
-.section-portfolio{
-    background-color: #F4F4FD;
-}
-
-
-ul,ol{
+ul,
+ol {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
-    color:#4D5AE5;
+    color: #4D5AE5;
 }
 
-.header-one{
+.header-one {
     font-family: roboto;
     font-weight: bold;
     font-size: 56px;
@@ -84,7 +105,7 @@ a:hover{
 
 }
 
-.button-order-service{
+.button-order-service {
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
@@ -93,53 +114,52 @@ a:hover{
 }
 
 .button-order-service:hover,
-.button-order-service:focus{
+.button-order-service:focus {
     background-color: #404BBF;
 }
 
-.header-two{
-    font-family:robot;
-    font-weight:bold;
+.header-two {
+    font-weight: bold;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     font-size: 36px;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
 
-.header-three{
+.header-three {
     background-color: #FFFFFF
 }
 
-.test{
+.test {
     background-color: #FFFFFF
 }
 
-.header-three{
-    font-family:roboto;
+.header-three {
+    font-family: roboto;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
 
-.feature-text{
+.feature-text {
     font-family: roboto;
     font-weight: 400;
-    font-size:16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
-.header-three-text{
-    font-weight:400;
-    font-size:16px;
+.header-three-text {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color: #434455;
 }
 
 
@@ -147,22 +167,22 @@ a:hover{
     background-color: #2e2f42;
 }
 
-.logo-web{
-    font-family:"Raleway",sans-serif;
+.logo-web {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
+    color: #4d5ae5;
 }
 
-.logo-studio{
-    color:#f4f4fd;
+.logo-studio {
+    color: #f4f4fd;
 }
 
-.footer-text{
-    color:#F4F4FD;
+.footer-text {
+    color: #F4F4FD;
     font-family: Roboto;
     letter-spacing: 0.02em;
 }
@@ -170,22 +190,11 @@ a:hover{
 
 
 button {
-            cursor: pointer;
-        }
-
-
-
-
-
-
-        
-    /*
+    cursor: pointer;
 }
-.logo-web{
-    color:#4D5AE5;
-}
-.logo-studio{
-    color: #F4F4FD;
-}
-    */
-    
+
+
+
+
+
+
