@@ -30,6 +30,16 @@ img {
     height: auto;
 }
 
+.container{
+    width:1158px;
+    margin: 0 auto;
+    padding: 120px 0px;
+    /*
+    margin-left: auto;
+    margin-right: auto;*/
+    
+}
+
 .web {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
