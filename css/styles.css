@@ -21,6 +21,7 @@ h6 {
 
 ul,
 ol {
+    list-style-type: none;
     margin: 0;
     padding-left: 0;
 }
@@ -32,12 +33,47 @@ img {
 
 .container{
     width:1158px;
+    padding:0 15px;
+    margin:0 auto;
+
+    /*
     margin: 0 auto;
     padding: 120px 0px;
     /*
     margin-left: auto;
     margin-right: auto;*/
     
+}
+
+.page-header{
+    border-bottom: 10px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.address-list{
+    gap:40px;
+    display: flex;
+    align-items: center;
+}
+
+.header-web{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .web {
@@ -54,30 +90,35 @@ img {
     color: #2e2f42;
 }
 
-.headerlist {
+.header-list-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
     line-height: 1.5;
 }
 
-.headerlist:hover,
-.headerlist:active,
-.headerlist:focus {
+.header-list-link:hover,
+.header-list-link:active,
+.header-list-link:focus {
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
+    margin-left:auto;
 }
 
-.contact {
+.address-list-item {
+    display: block;
+    padding: 24px 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contact:hover,
-.contact:focus {
+.address-list-item:hover,
+.address-list-item:focus {
     color: #404bbf;
 }
 
