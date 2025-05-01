@@ -130,6 +130,16 @@ img {
 
 }
 
+
+.section-two{
+    padding: 120px 0;
+}
+
+.feature-list{
+    display: flex;
+    gap:24px;
+}
+
 .section-our-team {
     background-color: #F4F4FD;
 }
@@ -174,6 +184,8 @@ a:hover {
     border: none;
     border-radius: 4px;
     margin:0 auto;
+    margin-top: 48px;
+    
 }
 
 .button-order-service:hover,
@@ -189,6 +201,7 @@ a:hover {
     font-size: 36px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 }
 
 .header-three {
@@ -254,6 +267,7 @@ a:hover {
 
 button {
     cursor: pointer;
+   
 }
 
 
