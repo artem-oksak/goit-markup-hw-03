@@ -241,7 +241,11 @@ a:hover {
     background-color: #FFFFFF
 }
 
-.header-three {
+.portfolio-list-item{
+    width: calc((100%-48)/3);
+}
+
+.portfolio-list-item-header {
     font-family: roboto;
     font-weight: 500;
     font-size: 20px;
@@ -262,7 +266,7 @@ a:hover {
 
 }
 
-.header-three-text {
+.portfolio-list-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -271,6 +275,18 @@ a:hover {
     text-align:center;
 }
 
+.section-portfolio{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
 .footer {
     background-color: #2e2f42;
