@@ -135,6 +135,10 @@ img {
     padding: 120px 0;
 }
 
+.strategy-list-item{
+    width:calc((100%-72)/4)
+}
+
 .feature-list{
     display: flex;
     gap:24px;
@@ -204,9 +208,6 @@ a:hover {
    
 }
 
-.header-three {
-    background-color: #FFFFFF
-}
 
 .test {
     background-color: #FFFFFF
@@ -219,6 +220,8 @@ a:hover {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .feature-text {
