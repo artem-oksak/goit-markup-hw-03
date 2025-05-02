@@ -182,6 +182,7 @@ img {
 
 .worker-container{
     padding: 32px 0;
+    background-color: #FFFFFF;
 }
 
 ul,
@@ -269,7 +270,7 @@ a:hover {
     color: #2e2f42;
     background-color: #FFFFFF;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 
 .feature-text {
@@ -287,7 +288,7 @@ a:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align:center;
+    text-align:left;
 }
 
 .section-portfolio{
