@@ -135,6 +135,15 @@ img {
     padding: 120px 0;
 }
 
+.header-three{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.header-three-text{
+    text-align: center;
+}
+
 .visually-hidden{
     position: absolute;
         width: 1px;
